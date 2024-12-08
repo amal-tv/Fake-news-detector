@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Background shield shape -->
+  <path d="M150 20 L280 80 L280 220 L150 280 L20 220 L20 80 Z" fill="#3B82F6" />
+  
+  <!-- Inner shield/protection element -->
+  <path d="M150 40 L260 90 L260 200 L150 250 L40 200 L40 90 Z" fill="#BFDBFE" />
+  
+  <!-- Crossed-out fake news symbol -->
+  <line x1="50" y1="250" x2="250" y2="50" stroke="#FF0000" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Text "FAKE" -->
+  <text x="150" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="60" fill="#DC2626">
+    FAKE
+  </text>
+  
+  <!-- Small shield/protection icon overlay -->
+  <path d="M150 100 L190 120 L190 160 L150 180 L110 160 L110 120 Z" fill="#10B981" opacity="0.7" />
+</svg>
